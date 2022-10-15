@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e0f9a42-0c1d-4ad8-98c1-14e5ae2beca5" name="Changes" comment="tests" />
+    <list default="true" id="5e0f9a42-0c1d-4ad8-98c1-14e5ae2beca5" name="Changes" comment="tests-2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -329,7 +329,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665859291128</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="tests">
+      <created>1665859686344</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665859686344</updated>
+    </task>
+    <task id="LOCAL-00017" summary="tests-1">
+      <created>1665859779826</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665859779826</updated>
+    </task>
+    <task id="LOCAL-00018" summary="tests-2">
+      <created>1665859902551</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665859902551</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,6 +367,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2 test classes" />
     <MESSAGE value="tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests" />
+    <MESSAGE value="tests-1" />
+    <MESSAGE value="tests-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests-2" />
   </component>
 </project>
