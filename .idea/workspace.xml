@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e0f9a42-0c1d-4ad8-98c1-14e5ae2beca5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/veta/SelenideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/veta/StepsTest.java" afterDir="false" />
+    <list default="true" id="5e0f9a42-0c1d-4ad8-98c1-14e5ae2beca5" name="Changes" comment="2 test classes">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/veta/AttachmentsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/veta/LabelsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/veta/WebSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/veta/StepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/veta/StepsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +87,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "build.tools"
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -124,7 +120,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AttachmentsSteps" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -137,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.veta.SelenideTest&quot;" />
+            <option value="&quot;org.veta.AttachmentsSteps&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideTest.testIssueSearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AttachmentsSteps.testAnnotatedAttachments" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +156,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.veta.SelenideTest.testIssueSearch&quot;" />
+            <option value="&quot;org.veta.AttachmentsSteps.testAnnotatedAttachments&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LabelsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.veta.LabelsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LabelsTest.testStaticLabels" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.veta.LabelsTest.testStaticLabels&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,8 +215,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Allure [allureServe]" />
-        <item itemvalue="Gradle.SelenideTest" />
-        <item itemvalue="Gradle.SelenideTest.testIssueSearch" />
+        <item itemvalue="Gradle.LabelsTest" />
+        <item itemvalue="Gradle.LabelsTest.testStaticLabels" />
+        <item itemvalue="Gradle.AttachmentsSteps" />
+        <item itemvalue="Gradle.AttachmentsSteps.testAnnotatedAttachments" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +231,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665680024986</updated>
     </task>
+    <task id="LOCAL-00001" summary="2 test classes">
+      <created>1665695310416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665695310416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,5 +251,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2 test classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 test classes" />
   </component>
 </project>
