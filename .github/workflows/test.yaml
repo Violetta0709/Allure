@@ -5,7 +5,7 @@ on: [push]
 jobs:
   test:
     # где заускаем
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     # что делаем
     steps:
       # выкачиваем репозиторий
