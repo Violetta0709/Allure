@@ -5,7 +5,7 @@ on: workflow_dispatch
 jobs:
   test:
     # где заускаем
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     # что делаем
     steps:
       # выкачиваем репозиторий
